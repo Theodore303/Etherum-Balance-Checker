@@ -38,7 +38,7 @@ public class Program
 
     public static void Main(string[] args)
     {
-        var web3 = new Web3("https://eth-mainnet.alchemyapi.io/v2/SWnnr6RA00IpzVBqxszTH44af_QbWrN1"); // Replace with your own API Addresss
+        var web3 = new Web3("https://eth-mainnet.alchemyapi.io/v2/SWnnr6RA00IpzVBqxszTH44af_QbWrN1"); // Replace with your own API Address
 
         var balanceAddresses = new List<string>();
         using (StreamReader file = new StreamReader("eth.txt"))
